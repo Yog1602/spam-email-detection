@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, classification_report
 
 # Load dataset
-df = pd.read_csv(r"C:\Users\Yog Dalal\Downloads\mail_data.csv")
+df = pd.read_csv(r"mail_data.csv")
 
 # Rename columns if necessary
 df.rename(columns={'Category': 'label', 'Message': 'text'}, inplace=True)
